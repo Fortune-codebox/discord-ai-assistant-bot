@@ -1,0 +1,20 @@
+{
+  "name": "discord-ai-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Fortune Codebox",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/aiplatform": "^3.3.0",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
